@@ -9,3 +9,4 @@ while total<100:
   total+=newborn
   generation+=1
 print("The total number is over 100 after generation",generation)
+#The total number is over 100 after generation 7
