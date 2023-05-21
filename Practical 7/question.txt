@@ -1,0 +1,10 @@
+#question:Are there places in the world where there have been more than 10000 total infections as of 31 March? If so, where are they?
+#corresponding solving code:
+filtered_data = covid_data[(covid_data["total_cases"] > 10000) & (covid_data["date"] == "2020-03-31")]
+print("Locations with more than 10,000 total infections as of 31 March:")
+print(filtered_data["location"].unique())
+
+#the result is
+Locations with more than 10,000 total infections as of 31 March:
+['Belgium' 'China' 'France' 'Germany' 'Iran' 'Italy' 'Netherlands' 'Spain'
+ 'Switzerland' 'Turkey' 'United Kingdom' 'United States' 'World']
