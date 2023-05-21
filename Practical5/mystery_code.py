@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:take the largest random integer in ten cycles
+# Answer:Generate 10 random numbers between 1 and 100 before printing the largest number
 
 # Import libraries
 # randint allows drawing a random number,
